@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 # import pandas to load analytics data
 import pandas as pd
@@ -24,7 +25,9 @@ if st.button('Get Data'):
     call(['python', 'tiktok.py', hashtag])
 
     # load existing data
-    df = pd.read_csv('TikTok/Tiktok/tiktokdata.csv')
+    path = os.path.dirname(__file__)
+    my_file = path+'tiktokdata.csv'
+    df = pd.read_csv(my_file)
 
     # Split page
     left, right = st.columns(2)
