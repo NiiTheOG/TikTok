@@ -24,7 +24,7 @@ if st.button('Get Data'):
     call(['python', 'tiktok.py', hashtag])
 
     # load existing data
-    df = pd.read_csv('tiktokdata.csv')
+    df = pd.read_csv('TikTok/Tiktok/tiktokdata.csv')
 
     # Split page
     left, right = st.columns(2)
