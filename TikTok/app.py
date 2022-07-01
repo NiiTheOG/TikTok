@@ -26,7 +26,7 @@ if st.button('Get Data'):
 
     # load existing data
     path = os.path.dirname(__file__)
-    my_file = path+'tiktokdata.csv'
+    my_file = path+'/tiktokdata.csv'
     df = pd.read_csv(my_file)
 
     # Split page
