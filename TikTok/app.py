@@ -1,7 +1,7 @@
 import streamlit as st
 # import pandas to load analytics data
 import pandas as pd
-from tiktok import get_data
+# from tiktok import get_data
 # import subprocess to run tiktok scripy from cmd line
 from subprocess import call
 # import plotly for viz
