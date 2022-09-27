@@ -1,2 +1,2 @@
 # TikTok
-This is a repository for TikTok
+This is a repository for TikTok Analytics
